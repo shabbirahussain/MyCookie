@@ -1,12 +1,10 @@
 package org.hshabbir.practice.csv_parser
 
-import org.scalatest.{BeforeAndAfterAll, BeforeAndAfterEach}
 import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.{BeforeAndAfterAll, BeforeAndAfterEach}
 
 import java.io.{File, PrintWriter}
 import scala.util.Using
-import java.io.PrintStream
-import java.io.ByteArrayOutputStream
 
 
 class MainIntegrationTest extends AnyFlatSpec with BeforeAndAfterAll with BeforeAndAfterEach {

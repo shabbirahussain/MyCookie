@@ -27,7 +27,7 @@ class SolutionTest extends AnyFlatSpec with PrivateMethodTester {
       Seq(
         "a,,2018-12-08T23:00:00-01:00", // More columns
         "2018-12-08T23:00:00-01:00",    // Less columns
-        "", // Empty Inputs
+        "",                             // Empty Inputs
         "a,2018-99-08T23:00:00-01:00",  // Invalid Dates
       ).iterator
     )
